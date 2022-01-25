@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 问题 </category>
+          <category> 疑难杂症 </category>
           
       </categories>
       
@@ -38,6 +38,18 @@
         <content type="html"><![CDATA[<p><strong>欢迎来到我的个人博客</strong></p><p><font color="#555555">我将在这里记录：</font></p><ul><li><font color="#555555">我的学习笔记</font></li><li><font color="#555555">我的学习项目经验</font></li><li><font color="#555555">我学习过程中遇到的问题</font></li></ul><p><font color="#555555">希望在提高自己的同时，也能对你有所帮助。</font></p><br><p><font color="#555555">欢迎大家留言，指正我的错误</font></p><p><font color="#555555">或者通过邮箱和QQ互相交流学习经验</font></p>]]></content>
       
       
+      <categories>
+          
+          <category> 日常分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 关于我 </tag>
+            
+        </tags>
       
     </entry>
     
