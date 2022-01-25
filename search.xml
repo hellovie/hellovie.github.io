@@ -5,8 +5,8 @@
     
     <entry>
       <title>Hexo yilia 图片无法显示问题</title>
-      <link href="/2022/01/24/hexoImage/"/>
-      <url>/2022/01/24/hexoImage/</url>
+      <link href="/archives/fbe14a8f.html"/>
+      <url>/archives/fbe14a8f.html</url>
       
         <content type="html"><![CDATA[<h3 id="问题说明"><a href="#问题说明" class="headerlink" title="问题说明"></a>问题说明</h3><blockquote><p>关于 Hexo yilia 的图片无法正常显示的问题，从网上总结出三种解决方案：</p><ul><li>第一种方案将图片放置在 blog/source/image/（博客根目录）下，会导致图片在文章展开时无法显示。（无法解决问题）</li><li>第二种方案是通过下载 hexo-asset-image 来解决问题，图片依旧无法显示。（无法解决问题）</li><li>第三种方案是通过下载 <a href="https://github.com/CodeFalling/hexo-asset-image">https://github.com/CodeFalling/hexo-asset-image</a> 来解决问题，图片可以正常显示。（可以解决问题）</li></ul></blockquote><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><ul><li>将博客根目录下的 _config.yml 中的 <code>post _asset_folder: false</code> 改为：</li></ul><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><ul><li>下载 hexo-asset-image</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image</span><br><span class="line"><span class="meta">#</span><span class="bash"> 或者</span></span><br><span class="line">cnpm install https://github.com/CodeFalling/hexo-asset-image</span><br></pre></td></tr></table></figure><ul><li>新建文章</li></ul><p><img src="https://cdn.jsdelivr.net/gh/hellovie/picgo/img/hexoImage1.png" alt="新建文章"></p><ul><li>会出现和文章同名的文件夹，把图片素材放到此文件夹</li></ul><p><img src="https://cdn.jsdelivr.net/gh/hellovie/picgo/img/hexoImage2.png" alt="同名文件夹"></p><ul><li>最后在 .md 文件中插入图片即可正常显示</li></ul><blockquote><p><strong>注意：</strong>插入的图片路径要用相对路径</p></blockquote><ul><li>最后再清理、部署、启动服务器即可</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><br><h3 id="其他问题"><a href="#其他问题" class="headerlink" title="其他问题"></a>其他问题</h3><ol><li>设置路径时，应当用 “./hexoimage/test.jpg” 而不是 “.\hexoimage\test.jpg”。虽然在 Typora 上图片都能正常显示，但是部署到服务器会导致图片名称乱码，因而无法正常显示。</li><li>尽量不要使用 “hexoimage/test.jpg” 或 “/hexoimage/test.jpg” 虽然在 Typora 上都能正常显示，但是部署到服务器可能会出现问题。</li></ol><p><strong>例如：</strong></p><ul><li>下图中的 “.%5Chexoimage%5Ctest.jpg” 就是乱码的 “test.jpg”</li></ul><p><img src="https://cdn.jsdelivr.net/gh/hellovie/picgo/img/hexoImage3.png" alt="乱码路径"></p><br><br><p><strong>最后：希望本文能够帮助你解决问题，文章中有不懂或不正确的地方，请在下方评论区说明！</strong></p>]]></content>
       
@@ -32,8 +32,8 @@
     
     <entry>
       <title>欢迎来到我的博客</title>
-      <link href="/2022/01/23/blog/"/>
-      <url>/2022/01/23/blog/</url>
+      <link href="/archives/b250e9bb.html"/>
+      <url>/archives/b250e9bb.html</url>
       
         <content type="html"><![CDATA[<p><strong>欢迎来到我的个人博客</strong></p><p><font color="#555555">我将在这里记录：</font></p><ul><li><font color="#555555">我的学习笔记</font></li><li><font color="#555555">我的学习项目经验</font></li><li><font color="#555555">我学习过程中遇到的问题</font></li></ul><p><font color="#555555">希望在提高自己的同时，也能对你有所帮助。</font></p><br><p><font color="#555555">欢迎大家留言，指正我的错误</font></p><p><font color="#555555">或者通过邮箱和QQ互相交流学习经验</font></p>]]></content>
       

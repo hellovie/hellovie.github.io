@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2022/01/24/hexoImage/</loc>
+    <loc>https://hellovie.github.io/archives/fbe14a8f.html</loc>
     
     <lastmod>2022-01-24</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/01/23/blog/</loc>
+    <loc>https://hellovie.github.io/archives/b250e9bb.html</loc>
     
     <lastmod>2022-01-24</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/link/index.html</loc>
+    <loc>https://hellovie.github.io/link/index.html</loc>
     
     <lastmod>2022-01-24</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://hellovie.github.io/categories/index.html</loc>
     
     <lastmod>2022-01-24</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://hellovie.github.io/tags/index.html</loc>
     
     <lastmod>2022-01-24</lastmod>
     
@@ -48,7 +48,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://hellovie.github.io/</loc>
     <lastmod>2022-01-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -56,14 +56,14 @@
 
   
   <url>
-    <loc>http://example.com/tags/Hexo/</loc>
+    <loc>https://hellovie.github.io/tags/Hexo/</loc>
     <lastmod>2022-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/yilia/</loc>
+    <loc>https://hellovie.github.io/tags/yilia/</loc>
     <lastmod>2022-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -72,7 +72,7 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://hellovie.github.io/categories/%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2022-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
