@@ -97,6 +97,13 @@
   </url>
   
   <url>
+    <loc>https://hellovie.github.io/tags/Git/</loc>
+    <lastmod>2022-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hellovie.github.io/tags/C/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -105,13 +112,6 @@
   
   <url>
     <loc>https://hellovie.github.io/tags/Const/</loc>
-    <lastmod>2022-02-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hellovie.github.io/tags/Git/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
